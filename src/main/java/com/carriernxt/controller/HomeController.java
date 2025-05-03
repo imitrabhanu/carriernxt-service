@@ -14,7 +14,7 @@ public class HomeController {
     @ResponseBody
     public Map<String, String> apiHome() {
         Map<String, String> response = new HashMap<>();
-        response.put("message", "Welcome to AI Career Architect API");
+        response.put("message", "Welcome to Career NXT API");
         response.put("status", "running");
         return response;
     }
